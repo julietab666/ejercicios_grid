@@ -1,0 +1,10 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 20px;
+}
+
+.caja {
+    background-color: beige;
+    border: 1px solid rgb(46, 30, 18);
+}

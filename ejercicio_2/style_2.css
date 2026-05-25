@@ -1,0 +1,10 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 100px);
+}
+
+.caja {
+    background-color: rgb(231, 219, 208);
+    border: 1px solid;
+}

@@ -1,0 +1,9 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: (auto-fit, minmax(200px, 1fr));
+}
+
+.caja {
+    background-color: rgb(200, 132, 255);
+    border: solid black;
+}

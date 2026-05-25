@@ -1,0 +1,13 @@
+.contenedor {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    place-content: center;
+}
+
+.caja {
+    background-color: beige;
+    border: 1px solid rgb(46, 30, 18);
+}

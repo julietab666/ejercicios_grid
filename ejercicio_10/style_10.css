@@ -1,0 +1,29 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+
+}
+
+.cabecera {
+    background-color: beige;
+    border: solid black;
+    grid-area: header;
+}
+.sidebar {
+    background-color: rgb(200, 132, 255);
+    border: solid black;
+    grid-area: sidebar;
+}
+.principal {
+    background-color: rgb(187, 255, 202);
+    border: solid black;
+    grid-area: main;
+}
+.pie {
+    background-color: rgb(160, 209, 255);
+    border: solid black;
+    grid-area: footer;
+}

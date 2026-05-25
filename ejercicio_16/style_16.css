@@ -1,0 +1,10 @@
+.dashboard {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas:
+        "head head head head"
+        "side w1   w2   w3"
+        "side grafico grafico grafico"
+        "foot foot foot foot";    
+}

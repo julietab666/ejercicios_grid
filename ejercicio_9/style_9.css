@@ -1,0 +1,17 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-content: center;
+}
+
+.cajaalta {
+    grid-row: 1 / 3;
+    background-color: rgb(182, 253, 212);
+    border: 1px solid rgb(46, 30, 18);
+}
+
+.caja {
+    background-color: beige;
+    border: 1px solid rgb(46, 30, 18);
+}

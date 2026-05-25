@@ -1,0 +1,14 @@
+.contenedor a {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.contenedor b {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja {
+    background-color: rgb(200, 132, 255);
+    border: solid black;
+}
